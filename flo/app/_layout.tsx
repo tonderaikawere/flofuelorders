@@ -29,7 +29,6 @@ export default function RootLayout() {
         <Stack.Screen name="threshold" options={{ headerShown: false }} />
         <Stack.Screen name="user" options={{ headerShown: false }} />
         <Stack.Screen name="signin" options={{ headerShown: false }} />
-        {/* <Stack.Screen name="signup" options={{ presentation: 'modal' }} /> */}
       </Stack>
   );
 }
